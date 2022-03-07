@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Mojang';
+  src: url('Mojang-Regular.woff2') format('woff2'),
+       url('Mojang-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mojang';
+  src: url('Mojang-Bold.woff2') format('woff2'),
+       url('Mojang-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
