@@ -1,0 +1,28 @@
+{
+	"name": "Hex Vaporwave",
+	"author": "Trioplane",
+	"borders": false,
+	"main_font": "",
+	"headline_font": "",
+	"code_font": "",
+	"css": "* {\n transition: all 0.1s;\n border-radius: 5px;\n}\n.selected {\n  padding-right: 10px;\n  padding-left: 10px;\n}\n\n.selected:hover {\n  padding-right: 15px;\n  padding-left: 15px;\n}\n\nli:hover, li.focused {\n  transform: scale(1.1);\n}\n\ni:hover, i.focused {\n  transform: scale(1.12);\n}\n\nbutton:hover {\n  transform: scale(1.1);\n}\n\n.start_screen_left > ul > li:hover, .start_screen_right > ul > li:hover {\n  animation: leftRightTurn 1s ease-in-out infinite alternate;\n  background-color: var(--color-grid);\n}\n\n#cubes_list > li:hover, #cubes_list > li.selected {\n  transform: scale(1);\n  padding-right: 0px;\n  padding-left: 0px;\n}\n\n#texture_list > li:hover, #texture_list > li.selected {\n  transform: scale(1);\n  padding-right: 0px;\n  padding-left: 0px;\n}\n\n#cubes_list .parent_li > ul li {\n  transform: scale(1);\n  padding-right: 0px;\n  padding-left: 0px;\n}\n\n.animator:hover, .animator, .animator.selected {\n  transform: scale(1);\n  padding-right: 0px;\n  padding-left: 0px;\n}\n\n.keyframe, .keyframe:hover, .keyframe.selected, .timeline_endbracket, .timeline_endbracket:hover {\n  transition: all 0s;\n  padding-right: 0px;\n  padding-left: 0px;\n}\n\n#timeline_playhead {\n  transition: all 0s;\n  padding-right: 0px;\n  padding-left: 0px;\n}\n\n.cancel_btn {\n  background-color: tomato;\n}\n\n.cancel_btn:hover {\n  background-color: tomato;\n  transform: translateY(-5px);\n}\n\n.confirm_btn {\n  background-color: limegreen !important;\n  color: black;\n}\n\n.confirm_btn:hover {\n  transform: translateY(-5px);\n}\n\n.cube_uv_face, .cube_uv_face.selected, .uv_fill, #uv_frame > div {\n  border-radius: 1px;\n  transition: all 0s;\n  padding-right: 0px;\n  padding-left: 0px;\n}\n\n.sp-dragger {\n  transition: all 0s;\n  padding-right: 0px;\n  padding-left: 0px;\n  background-color: rgba(255, 255, 255, .2);\n}\n\n/* animations */\n\n@keyframes leftRightTurn {\n  0% {\n    transform: rotate(0deg) scale(1);\n  }\n  50% {\n    transform: rotate(10deg) scale(.9);\n  }\n  100% {\n    transform: rotate(-10deg) scale(.95);\n  }\n}",
+	"colors": {
+		"ui": "#1e0b1d",
+		"back": "#09080d",
+		"dark": "#0f050e",
+		"border": "#348f8a",
+		"selected": "#4b1b48",
+		"button": "#3ac7b6",
+		"bright_ui": "#ddffdb",
+		"accent": "#28474f",
+		"frame": "#09080d",
+		"text": "#ffffff",
+		"light": "#47fae3",
+		"accent_text": "#28474f",
+		"bright_ui_text": "#1b3339",
+		"subtle_text": "#e6feff",
+		"grid": "#22c4af",
+		"wireframe": "#65e1d1",
+		"checkerboard": "#8f889f"
+	}
+}
